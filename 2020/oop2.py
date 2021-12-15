@@ -20,13 +20,6 @@ class Point:
     def x(self, x):
         self.__x = x
 
-    #Getter
-    def getX(self):
-        return self.__x
-
-    #Setter
-    def setX(self, x):
-        self.__x = x
 
     def print(self):
         print(str(self.__id), str(self.__x), str(self.__y))
