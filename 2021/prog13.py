@@ -75,6 +75,7 @@ p1.print()
 
 #Common handling 
 G = [go, p1]
+#G = [go, p1, 12] # Leads to exception, no print method for int
 
 for g in G:
     g.print()
